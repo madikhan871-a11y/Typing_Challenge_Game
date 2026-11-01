@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeVerse | Typing Challenge Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">Type<span>Verse</span></a>
+        <div class="nav-tag">TYPING CHALLENGE</div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <p class="eyebrow">YOUR KEYBOARD. YOUR POWER.</p>
+            <h1>Ready, Set,<br><span>Type!</span></h1>
+            <p class="intro">
+                Sharpen your typing skills, catch letters
+                and become a keyboard master.
+            </p>
+        </section>
+
+        <section class="game-selection">
+            <article class="game-card">
+                <div class="game-icon">◉</div>
+                <p class="mode-label">MODE 01</p>
+                <h2>Bubbles</h2>
+                <p>Catch the floating letters before they escape.
+                   Test your speed and letter recognition.</p>
+                <button onclick="selectGame('bubbles')">
+                    Play Bubbles <span>→</span>
+                </button>
+            </article>
+
+            <article class="game-card featured">
+                <div class="game-icon">⌨</div>
+                <p class="mode-label">MODE 02</p>
+                <h2>KeyMagnet</h2>
+                <p>Hit the correct keys, build your accuracy
+                   and master your keyboard precision.</p>
+                <button onclick="selectGame('keymagnet')">
+                    Play KeyMagnet <span>→</span>
+                </button>
+            </article>
+        </section>
+
+        <section class="bottom-note">
+            <span>✦</span> Practice makes progress. Let's play!
+        </section>
+    </main>
+
+    <footer>
+        Typing Challenge Game · Web Technologies Lab Mid
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
